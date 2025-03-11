@@ -16,7 +16,8 @@ import { jwtDecode } from 'jwt-decode'; // Corrige el import de jwtDecode
 })
 export class ApiService {
 
-  private baseUrl = 'http://localhost:8080';
+  //private baseUrl = 'http://localhost:8080';
+  private baseUrl = 'https://backend-historialclinico-latest.onrender.com/api'; // URL de la API en render
   constructor(private http: HttpClient) {} // Asegúrate de que HttpClient sea parte del constructor
 
   // Método para registrar usuarioGIT
